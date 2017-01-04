@@ -2,7 +2,26 @@
 
 This repository contains code to calculate a one-tree approximation to the TSP.
 
-This is the current example for evalution:
+
+### Results
+
+#### Cost
+
+![cost](./costs.png)
+
+#### Lagrange multipliers
+
+History of the training parameters:
+
+![lagrange multipliers](./lagrange_multipliers.png)
+
+#### Final graph
+
+![Iteration 290](./ot290.svg)
+
+### Code
+
+This is the current example for evalution (german_cities.jl):
 ~~~julia
 using TSPSubgradient, LightGraphs, GraphLayout, Plots
 
